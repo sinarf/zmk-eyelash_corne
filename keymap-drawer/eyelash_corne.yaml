@@ -48,7 +48,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - SYMBOL
-  - $$mdi:apple-keyboard-option$$
+  - {t: gaming, h: toggle}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '1', s: '!'}
