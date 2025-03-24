@@ -101,22 +101,26 @@
             sensor-bindings = <&scroll_encoder>;
         };
 
-        settings {
+        layer_4 {
             bindings = <
 &trans          &trans        &trans        &trans        &trans        &trans                          &trans          &trans  &trans  &trans  &trans  &trans  &trans
 &bt BT_CLR      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &bt BT_CLR_ALL  &out OUT_BLE  &out OUT_USB  &trans        &trans        &trans        &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
                                             &trans        &trans        &trans                                          &trans  &trans  &trans
             >;
+
+            label = "settings";
         };
 
-        gaming {
+        layer_5 {
             bindings = <
 &kp TAB     &trans  &kp Q  &kp W      &kp E      &kp R                       &trans          &kp N1  &kp N2  &kp N3  &trans          &trans    &trans
 &kp ESCAPE  &trans  &kp A  &kp S      &kp D      &kp F               &trans  &trans  &trans  &kp N4  &kp N5  &kp N6  &kp N0          &kp UP    &trans
 &trans      &trans  &kp Z  &kp X      &kp C      &kp V     &trans            &trans          &kp N7  &kp N8  &kp N9  &kp LEFT_ARROW  &kp DOWN  &kp RIGHT
                            &kp LSHFT  &kp LCTRL  &kp LALT                                    &trans  &trans  &tog 5
             >;
+
+            label = "gaming";
         };
     };
 };
