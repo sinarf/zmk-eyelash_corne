@@ -294,3 +294,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: GAMING, h: toggle}
+combos:
+- p: [1, 15, 29]
+  k: '&soft_off'
